@@ -6,23 +6,28 @@ package
     import flash.ui.Keyboard;
     import flash.utils.*;//need for setTimeout
  
-    public class Main extends MovieClip
+ 
+    //use this class for main class your flash project
+    public class cheatCodeMain extends MovieClip
     {
  
-        public function Main()
+        public function cheatCodeMain()
         {
             // init
             init_cheats_listener();
  
         }
  
-        public var correct:MovieClip = new correctMc();
+        public var correct:MovieClip = new correctMc(); //your MovieClip inside library for add when code is correct
  
         private var keyBuffer:Array = [];
  
         //private var cheatCode:Array = [Keyboard.UP,Keyboard.DOWN,Keyboard.LEFT,Keyboard.RIGHT];
         private var cheatCode:Array = ["1".charCodeAt(),"2".charCodeAt(),"3".charCodeAt(),"4".charCodeAt(),"5".charCodeAt(),"6".charCodeAt()];
- 
+        
+        //your cheat code now is :  123456
+        
+        
         private var type_timeout:uint;
  
         private function init_cheats_listener():void
