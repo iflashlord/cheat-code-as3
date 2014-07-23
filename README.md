@@ -1,4 +1,4 @@
 cheat-code-as3
 ==============
 
-Define a Cheat Code in AS3
+Make a Cheat Code in AS3
